@@ -6,7 +6,7 @@
 #define JAVA_COMPILER_TOKEN_H
 
 #include <string>
-#include "tag.h"
+#include "../tag.h"
 
 namespace lexer {
     class Token;
