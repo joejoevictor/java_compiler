@@ -10,27 +10,26 @@ namespace lexer {
 
 class lexer::Tag {
 public:
-    const int AND = 256;
-    const int BASIC = 257;
-    const int BREAK = 258;
-    const int DO = 259;
-    const int ELSE = 260;
-    const int EQ = 261;
-    const int FALSE = 262;
-    const int GE = 263;
-    const int ID = 264;
-    const int IF = 265;
-    const int INDEX = 266;
-    const int LE = 267;
-    const int MINUS = 268;
-    const int NE = 269;
-    const int NUM = 270;
-    const int OR = 271;
-    const int REAL = 272;
-    const int TEMP = 273;
-    const int TRUE = 274;
-    const int WHILE = 275;
+    static const int AND = 256;
+    static const int BASIC = 257;
+    static const int BREAK = 258;
+    static const int DO = 259;
+    static const int ELSE = 260;
+    static const int EQ = 261;
+    static const int FALSE = 262;
+    static const int GE = 263;
+    static const int ID = 264;
+    static const int IF = 265;
+    static const int INDEX = 266;
+    static const int LE = 267;
+    static const int MINUS = 268;
+    static const int NE = 269;
+    static const int NUM = 270;
+    static const int OR = 271;
+    static const int REAL = 272;
+    static const int TEMP = 273;
+    static const int TRUE = 274;
+    static const int WHILE = 275;
 };
-
 
 #endif //JAVA_COMPILER_TAG_H
